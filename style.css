@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: white
+}
+
+header>div {
+  /* this div has to items, the div and nav */
+  display: flex;
+  justify-content: space-between;
+  /* so the items are separated with space between them */
+  padding: 5px 25px;
+  /* space on the sides and 0 on top and bottom */
+  align-items: center;
+  /*  */
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  margin: 0 0;
+}
+
+nav {
+  width: 600px;
+  /* without this the nav items are clammed together */
+}
+
+#span {
+  border-bottom: 1px solid blue;
+}
+
+nav ul {
+  list-style: none;
+  /* to remove the dots infront of the list */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  /* to remove line of the links */
+  color: black;
+}
+
+.blackHeart {
+  width: 20px;
+  /* resize the heart */
+  margin-right: 1rem;
+  /* create space between the heart and nifty penguin */
+}
+
+#npm-logo {
+  width: 50px;
+  margin-right: 1rem;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#search {
+  width: 60%;
+  /* display: flex;
+  justify-content: flex-end;
+  */
+  height: 25px;
+  /* padding: 1.2em; */
+  background-color: lightgray;
+  border: none;
+
+}
+
+#search-btn {
+  /* width: 15%; */
+  background-color: red;
+  color: white;
+  font-family: 'Poppins';
+  margin-right: 1rem;
+  border: none;
+  height: 25px;
+  /* padding: 1em; */
+
+}
+
+#join {
+  /* width: 15%; */
+  text-decoration: none;
+  margin-right: 1rem;
+  color: black;
+  border: 1px solid lightslategrey;
+  padding: 0 5px;
+
+
+}
+
+#log-in {
+
+  text-decoration: none;
+  color: black;
+
+  /* width: 15%; */
+}
+
+#section-1 {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 1px solid rgb(4, 0, 255); */
+  align-items: center;
+  background-color: rgba(232, 217, 217, .3);
+
+}
+
+#motto {
+  font-family: 'Poppins', sans-serif;
+  font-style: Extra-bold 800;
+  font-size: 70px;
+  margin: 20px 0;
+
+}
+
+.art {
+  margin: 20px 0;
+  max-width: 550px;
+  /* border: 1px solid rgb(4, 0, 255); */
+}
+
+#div-1 {
+  margin: 20px 0;
+  padding: 20px 20px;
+  width: 400px;
+  /* border: 1px solid rgb(4, 0, 255); */
+
+}
+
+#see-plans {
+  text-decoration: none;
+  margin-right: 2rem;
+  background-color: red;
+  box-shadow: 8px 8px 0 rgba(251, 59, 73, .2);
+  color: white;
+  padding: 10px 30px;
+  font-weight: bold;
+  /* height: 40px; */
+}
+
+#join-free {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px 30px;
+  font-weight: bold;
+
+}
+
+#section-2 {
+
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+#hexagon {
+  width: 150px;
+  /* border: 1px solid rgb(4, 0, 255); */
+  margin: 20px 0;
+}
+
+h2 {
+  background-color: rgba(255, 204, 53, .4);
+  transform: skew(9deg, 0deg);
+  font-style: italic;
+  padding: 0 10px;
+  margin: 20px 20px;
+  /* border: 1px solid rgb(4, 0, 255); */
+}
+
+#section-3 {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 100px;
+}
+
+#div-art {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0;
+  gap: 1em;
+  flex
+  /* bor
+  der: 1px solid rgb(4, 0, 255); */
+}
+
+.icon {
+  width: 2rem;
+}
+
+#create {
+  text-decoration: none;
+  margin: 20px 0;
+  font-size: 1.2em;
+  color: white;
+  background-color: black;
+  box-shadow: 8px 8px 0 rgba(128, 83, 35, .2);
+  padding: 10px;
+  border: 2px solid white;
+
+}
+
+h3 {
+  color: #ED1C24;
+}
+
+@media screen and (max-width:768) {
+  #motto {
+    font-size: 5%
+  }
+}
